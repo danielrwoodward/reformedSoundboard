@@ -2,12 +2,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-
-
 }
-.center {
- 
-}
+
 button {
 display:inline-block;
 padding:0.35em 1.2em;
