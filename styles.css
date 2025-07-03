@@ -17,8 +17,8 @@ button {
   height: 40px;
   margin-left: 10px;
   border-radius: 4px;
-  border: 1px solid plum;
+  border: 1px solid rgb(0, 59, 187);
   cursor: pointer;
-  color: purple;
+  color: rgb(26, 35, 205);
   font-weight: 600;
 }
