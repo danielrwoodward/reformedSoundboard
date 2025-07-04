@@ -1,19 +1,35 @@
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+html { font-size: 22px; }
+body { padding: 1rem; background-color: #4848485f;}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+}
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
 }
 
 button {
 display:inline-block;
+width: 100%;
+height: 60px;
 padding:0.35em 1.2em;
 border:0.1em solid #000000;
 margin:0 0.3em 0.3em 0;
 border-radius:0.12em;
 box-sizing: border-box;
 text-decoration:none;
-font-family:'Roboto',sans-serif;
-font-weight:300;
+font-weight:600;
 color:#000000;
 text-align:center;
 transition: all 0.2s;
